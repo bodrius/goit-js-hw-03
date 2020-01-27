@@ -1,5 +1,9 @@
 "use strict";
 
+// Напиши функцию countTotalSalary(employees) принимающую объект зарплат.
+// Функция считает общую сумму запрплаты работников и возращает ее. Каждое поле объекта,
+// передаваемого в функцию, имеет вид "имя":"зарплата"
+
 const countTotalSalary = function(employees) {
   let total = 0;
   for (const key in employees) {
