@@ -9,7 +9,7 @@ const countTotalSalary = function(employees) {
   for (const key in employees) {
     total = total + employees[key];
   }
-  return `Сумма зарплат обьекта - ${total}`;
+  return total;
 };
 
 console.log(countTotalSalary({}));
