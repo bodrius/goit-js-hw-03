@@ -15,10 +15,7 @@ const findBestEmployee = function(employees) {
       name = i;
     }
   }
-  return {
-    name,
-    // maxTask: max
-  };
+  return name;
 };
 
 console.log(
